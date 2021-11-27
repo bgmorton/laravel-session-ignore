@@ -1,0 +1,26 @@
+{
+    "name": "bgmorton/laravel-session-ignore",
+    "description": "Prevents long-lived sessions being created for specified user agents",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "bmorton.com"
+      }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+          "bgmorton\\LaravelSessionIgnore\\": "src"
+        }
+      },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "bgmorton\\LaravelSessionIgnore\\LaravelSessionIgnoreServiceProvider"
+            ]
+        }
+    }
+  }
+  
